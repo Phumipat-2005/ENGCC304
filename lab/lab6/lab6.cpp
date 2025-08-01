@@ -2,7 +2,7 @@
 
 int main() {
     int N = 0;
-printf("Number of points: ");
+printf("Pls Input Number");
     if (scanf("%d", &N) != 1) {
         printf("Please enter number only.");
     return 0;
