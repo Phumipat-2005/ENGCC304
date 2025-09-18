@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-        <mxGraphModel dx="3306" dy="444" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+        <mxGraphModel dx="3092" dy="289" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
             <root>
                 <mxCell id="WIyWlLk6GJQsqaUBKTNV-0"/>
                 <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0"/>
@@ -209,7 +209,7 @@
                 <mxCell id="252" value="น้ำ" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="mvioNwK95yMqdUQ73LqQ-36" vertex="1">
                     <mxGeometry x="1548" y="650.56" width="135" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="606" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="mvioNwK95yMqdUQ73LqQ-36" source="253" target="257">
+                <mxCell id="606" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="mvioNwK95yMqdUQ73LqQ-36" source="253" target="257" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
                             <mxPoint x="995" y="878.56"/>
@@ -222,7 +222,7 @@
                 <mxCell id="253" value="น้ำเขียว กระป๋องละ 12 บาท" style="rhombus;whiteSpace=wrap;html=1;" parent="mvioNwK95yMqdUQ73LqQ-36" vertex="1">
                     <mxGeometry x="1246" y="829.56" width="172.5" height="94" as="geometry"/>
                 </mxCell>
-                <mxCell id="622" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="mvioNwK95yMqdUQ73LqQ-36" source="257" target="258">
+                <mxCell id="622" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="mvioNwK95yMqdUQ73LqQ-36" source="257" target="258" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
                             <mxPoint x="634" y="1006.56"/>
@@ -254,7 +254,7 @@
                 <mxCell id="259" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;โค้ก กระป๋องละ 10 บาท&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="mvioNwK95yMqdUQ73LqQ-36" vertex="1">
                     <mxGeometry x="1529.25" y="735.56" width="172.5" height="94" as="geometry"/>
                 </mxCell>
-                <mxCell id="541" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="mvioNwK95yMqdUQ73LqQ-36" source="260" target="261">
+                <mxCell id="541" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="mvioNwK95yMqdUQ73LqQ-36" source="260" target="261" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
                             <mxPoint x="2305" y="818.56"/>
@@ -267,7 +267,7 @@
                 <mxCell id="260" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;เมล็ดทานตะวัน 13 บาท&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="mvioNwK95yMqdUQ73LqQ-36" vertex="1">
                     <mxGeometry x="1901.25" y="775.56" width="172.5" height="94" as="geometry"/>
                 </mxCell>
-                <mxCell id="557" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="mvioNwK95yMqdUQ73LqQ-36" source="261" target="262">
+                <mxCell id="557" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="mvioNwK95yMqdUQ73LqQ-36" source="261" target="262" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
                             <mxPoint x="2678" y="901.56"/>
@@ -283,7 +283,7 @@
                 <mxCell id="1008" value="" style="edgeStyle=none;html=1;" edge="1" parent="mvioNwK95yMqdUQ73LqQ-36" source="337" target="341">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="337" value="เลือกช่องทางการชำระเงิน" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="mvioNwK95yMqdUQ73LqQ-36">
+                <mxCell id="337" value="เลือกช่องทางการชำระเงิน" style="rhombus;whiteSpace=wrap;html=1;" parent="mvioNwK95yMqdUQ73LqQ-36" vertex="1">
                     <mxGeometry x="1732.5" y="1825.56" width="149.5" height="110" as="geometry"/>
                 </mxCell>
                 <mxCell id="1050" value="" style="edgeStyle=none;html=1;" edge="1" parent="mvioNwK95yMqdUQ73LqQ-36" source="341" target="345">
@@ -350,7 +350,7 @@
                 <mxCell id="1074" value="" style="edgeStyle=none;html=1;" edge="1" parent="mvioNwK95yMqdUQ73LqQ-36" source="569" target="1061">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="569" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="mvioNwK95yMqdUQ73LqQ-36">
+                <mxCell id="569" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="mvioNwK95yMqdUQ73LqQ-36" vertex="1">
                     <mxGeometry x="1789" y="1414.56" width="36" height="36" as="geometry"/>
                 </mxCell>
                 <mxCell id="1027" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="mvioNwK95yMqdUQ73LqQ-36" source="584" target="1026">
