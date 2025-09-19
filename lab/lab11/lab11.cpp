@@ -1,11 +1,15 @@
 #include <stdio.h>
 #include <math.h>
 
-int isArmstrong(int num) {
-    int original = num;
+int main() {
+    int n;
+    printf("Enter a number: ");
+    scanf("%d", &n);
+
+    int original = n;
     int sum = 0;
     int digits = 0;
-    int temp = num;
+    int temp = n;
 
     // นับจำนวนหลัก
     while (temp != 0) {
@@ -13,7 +17,7 @@ int isArmstrong(int num) {
         temp /= 10;
     }
 
-    temp = num;
+    temp = n;
     // คำนวณผลรวมของเลขยกกำลังจำนวนหลัก
     while (temp != 0) {
         int digit = temp % 10;
@@ -21,15 +25,7 @@ int isArmstrong(int num) {
         temp /= 10;
     }
 
-    return sum == original;
-}
-
-int main() {
-    int n;
-    printf("Enter a number: ");
-    scanf("%d", &n);
-
-    if (isArmstrong(n))
+    if (sum == original)
         printf("Pass\n");
     else
         printf("Not Pass\n");
