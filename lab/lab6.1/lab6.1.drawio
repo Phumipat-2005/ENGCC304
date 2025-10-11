@@ -1,0 +1,37 @@
+<mxfile host="65bd71144e">
+    <diagram id="tIch5KCzNHUSY5WSxoxP" name="Page-1">
+        <mxGraphModel dx="918" dy="463" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="7" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="2" target="4">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="Start" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+                    <mxGeometry x="385" y="240" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="End" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+                    <mxGeometry x="385" y="830" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="4" target="6">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="รับค่าตัวเลข" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+                    <mxGeometry x="365" y="310" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="6" target="9">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="0 = Zero&lt;div&gt;1 = One&lt;/div&gt;&lt;div&gt;2 = two&lt;/div&gt;&lt;div&gt;3 = Three&lt;/div&gt;&lt;div&gt;4 = Four&lt;/div&gt;&lt;div&gt;5 = Five&lt;/div&gt;&lt;div&gt;6 = Six&lt;/div&gt;&lt;div&gt;7 = seven&lt;/div&gt;&lt;div&gt;8 = Eight&lt;/div&gt;&lt;div&gt;9 = Nine&lt;/div&gt;&lt;div&gt;10 = ten&lt;/div&gt;&lt;div&gt;11 = Eleven&lt;/div&gt;&lt;div&gt;12 = Twelve&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="365" y="430" width="120" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="9" target="3">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="แสดงผลลัพธ์ออกมา" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+                    <mxGeometry x="350" y="710" width="150" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
