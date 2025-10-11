@@ -1,0 +1,348 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0" version="28.2.5">
+  <diagram id="SdoZF-Y5aBl26it-bRjy" name="Page-1">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="เริ่มต้น" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="40" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="425" y="120" as="sourcePoint" />
+            <mxPoint x="425" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4" value="แสดงผล: &quot;ระบุตำแหน่งงาน (1: Junior, 2: Mid-Level, 3: Senior)&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="160" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="425" y="220" as="sourcePoint" />
+            <mxPoint x="425" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6" value="รับค่า: ตำแหน่งงาน (position)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="260" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="425" y="320" as="sourcePoint" />
+            <mxPoint x="425" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8" value="แสดงผล: &quot;ระบุประสบการณ์ (ปี)&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="360" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="425" y="420" as="sourcePoint" />
+            <mxPoint x="425" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="10" value="รับค่า: ประสบการณ์ (experience)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="460" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="11" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="425" y="520" as="sourcePoint" />
+            <mxPoint x="425" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="12" value="แสดงผล: &quot;ระบุจำนวนโปรเจกต์ที่ทำสำเร็จ&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="560" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="13" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="425" y="620" as="sourcePoint" />
+            <mxPoint x="425" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="14" value="รับค่า: จำนวนโปรเจกต์ (project)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="660" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="15" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="425" y="720" as="sourcePoint" />
+            <mxPoint x="425" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="16" value="ตำแหน่งงาน คือ 1 ?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="352.5" y="760" width="145" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="17" value="จริง" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="500" y="770" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="18" value="เท็จ" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="420" y="840" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ycVLqdOtpeK4hs2hVOBU-87" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="19" target="ycVLqdOtpeK4hs2hVOBU-85">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="19" value="กำหนดเงินเดือน = 20000" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="770" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="20" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="16" target="19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="497.5" y="800" as="sourcePoint" />
+            <mxPoint x="570" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="21" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="425" y="840" as="sourcePoint" />
+            <mxPoint x="425" y="880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="22" value="ตำแหน่งงาน คือ 2 ?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="352.5" y="880" width="145" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="23" value="จริง" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="500" y="890" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="24" value="เท็จ" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="420" y="960" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="26" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="22" target="ycVLqdOtpeK4hs2hVOBU-85">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="497.5" y="920" as="sourcePoint" />
+            <mxPoint x="570" y="920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="27" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="425" y="960" as="sourcePoint" />
+            <mxPoint x="425" y="1000" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="28" value="ตำแหน่งงาน คือ 3 ?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="352.5" y="1000" width="145" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="29" value="จริง" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="500" y="1010" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="30" value="เท็จ" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="420" y="1080" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="32" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="28" target="ycVLqdOtpeK4hs2hVOBU-86">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="497.5" y="1040" as="sourcePoint" />
+            <mxPoint x="570" y="1040" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="33" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="28" target="ycVLqdOtpeK4hs2hVOBU-89">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="425" y="1080" as="sourcePoint" />
+            <mxPoint x="425" y="1160" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="425" y="1145" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ycVLqdOtpeK4hs2hVOBU-99" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="39" target="ycVLqdOtpeK4hs2hVOBU-92">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="39" value="ประสบการณ์ &amp;lt; 1 ปี ?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="455" y="1200" width="145" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="40" value="จริง" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="587.5" y="1200" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="41" value="เท็จ" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="522.5" y="1280" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="44" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="39">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="527.5" y="1280" as="sourcePoint" />
+            <mxPoint x="527.5" y="1320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ycVLqdOtpeK4hs2hVOBU-95" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="45" target="ycVLqdOtpeK4hs2hVOBU-94">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ycVLqdOtpeK4hs2hVOBU-98" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="45" target="48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="45" value="ประสบการณ์ &amp;lt; 4 ปี ?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="455" y="1320" width="145" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="46" value="จริง" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="600" y="1320" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="47" value="เท็จ" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="530" y="1400" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ycVLqdOtpeK4hs2hVOBU-101" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="48" target="ycVLqdOtpeK4hs2hVOBU-93">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="48" value="โบนัสประสบการณ์ = เงินเดือน * 10%" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="1330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="51" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="455" y="1440" width="145" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="52" value="จริง" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="600" y="1450" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="53" value="เท็จ" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="522.5" y="1520" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ycVLqdOtpeK4hs2hVOBU-105" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="57" target="ycVLqdOtpeK4hs2hVOBU-102">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="520" y="1655" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="57" value="โบนัสประสบการณ์ = เงินเดือน * 20%" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="467.5" y="1560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ycVLqdOtpeK4hs2hVOBU-107" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="64" target="ycVLqdOtpeK4hs2hVOBU-106">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="64" value="จำนวนโปรเจกต์ &amp;gt; 5 ?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="556.25" y="1700" width="145" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="65" value="จริง" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="701.25" y="1710" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="66" value="เท็จ" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="514.5" y="1700" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ycVLqdOtpeK4hs2hVOBU-109" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="67" target="ycVLqdOtpeK4hs2hVOBU-108">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="840" y="1830" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="67" value="โบนัสพิเศษ = เงินเดือน * 5%" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="770" y="1710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="69" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="64" target="67">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="701.25" y="1740" as="sourcePoint" />
+            <mxPoint x="770" y="1740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="75" value="แสดงผล: &quot;เงินเดือน: &quot; + เงินเดือน" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="513.75" y="1880" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="76" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="75">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="628.75" y="1940" as="sourcePoint" />
+            <mxPoint x="628.75" y="1980" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="77" value="แสดงผล: &quot;โบนัสประสบการณ์: &quot; + โบนัสประสบการณ์" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="513.75" y="1980" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="78" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="77">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="628.75" y="2040" as="sourcePoint" />
+            <mxPoint x="628.75" y="2080" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="79" value="แสดงผล: &quot;โบนัสพิเศษ: &quot; + โบนัสพิเศษ" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="513.75" y="2080" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="80" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="79">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="628.75" y="2140" as="sourcePoint" />
+            <mxPoint x="628.75" y="2180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="81" value="คำนวณเงินเดือนสุทธิ = เงินเดือน + โบนัสประสบการณ์ + โบนัสพิเศษ" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="513.75" y="2180" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="82" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="81">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="628.75" y="2240" as="sourcePoint" />
+            <mxPoint x="628.75" y="2280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="83" value="แสดงผล: &quot;เงินเดือนสุทธิ: &quot; + เงินเดือนสุทธิ" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="513.75" y="2280" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="84" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="83">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="628.75" y="2340" as="sourcePoint" />
+            <mxPoint x="628.75" y="2380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="85" value="สิ้นสุด" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="568.75" y="2380" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ycVLqdOtpeK4hs2hVOBU-88" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ycVLqdOtpeK4hs2hVOBU-85" target="ycVLqdOtpeK4hs2hVOBU-86">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ycVLqdOtpeK4hs2hVOBU-85" value="กำหนดเงินเดือน = 35000" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="569.5" y="890" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ycVLqdOtpeK4hs2hVOBU-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ycVLqdOtpeK4hs2hVOBU-86" target="ycVLqdOtpeK4hs2hVOBU-89">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="630" y="1145" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ycVLqdOtpeK4hs2hVOBU-86" value="กำหนดเงินเดือน = 50000" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="1010" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ycVLqdOtpeK4hs2hVOBU-90" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ycVLqdOtpeK4hs2hVOBU-89" target="39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ycVLqdOtpeK4hs2hVOBU-89" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="512.5" y="1130" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ycVLqdOtpeK4hs2hVOBU-100" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ycVLqdOtpeK4hs2hVOBU-92" target="48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ycVLqdOtpeK4hs2hVOBU-92" value="โบนัสประสบการณ์ = 0" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="1210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ycVLqdOtpeK4hs2hVOBU-104" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ycVLqdOtpeK4hs2hVOBU-93" target="ycVLqdOtpeK4hs2hVOBU-102">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="730" y="1655" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ycVLqdOtpeK4hs2hVOBU-93" value="โบนัสประสบการณ์ = เงินเดือน * 15%" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="1450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ycVLqdOtpeK4hs2hVOBU-96" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ycVLqdOtpeK4hs2hVOBU-94" target="57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ycVLqdOtpeK4hs2hVOBU-97" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ycVLqdOtpeK4hs2hVOBU-94" target="ycVLqdOtpeK4hs2hVOBU-93">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ycVLqdOtpeK4hs2hVOBU-94" value="ประสบการณ์ &amp;lt; 6 ปี ?" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="467.5" y="1450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ycVLqdOtpeK4hs2hVOBU-103" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ycVLqdOtpeK4hs2hVOBU-102" target="64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ycVLqdOtpeK4hs2hVOBU-102" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="613.75" y="1640" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ycVLqdOtpeK4hs2hVOBU-110" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ycVLqdOtpeK4hs2hVOBU-106" target="ycVLqdOtpeK4hs2hVOBU-108">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="440" y="1830" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ycVLqdOtpeK4hs2hVOBU-106" value="โบนัสพิเศษ = 0" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="1710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ycVLqdOtpeK4hs2hVOBU-111" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ycVLqdOtpeK4hs2hVOBU-108" target="75">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ycVLqdOtpeK4hs2hVOBU-108" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="618.75" y="1820" width="20" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

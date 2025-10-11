@@ -1,0 +1,146 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0" version="28.2.5">
+  <diagram name="Page-1" id="j-Pik4dKBkG6EGa7Eyab">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="main-0" value="โปรแกรมหลัก: main()" style="swimlane;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="920" height="1130" as="geometry" />
+        </mxCell>
+        <mxCell id="main-start" value="เริ่มต้น" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="main-0">
+          <mxGeometry x="400" y="40" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="main-edge-1" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="main-0" source="main-start">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="120" as="sourcePoint" />
+            <mxPoint x="460" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="main-proc-1" value="ประกาศตัวแปร num1, num2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="main-0">
+          <mxGeometry x="380" y="160" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="main-edge-2" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="main-0" source="main-proc-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="220" as="sourcePoint" />
+            <mxPoint x="460" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="main-io-1" value="แสดงผล &quot;Enter num1 :&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="main-0">
+          <mxGeometry x="380" y="260" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="main-edge-3" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="main-0" source="main-io-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="320" as="sourcePoint" />
+            <mxPoint x="460" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="main-io-2" value="รับค่า num1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="main-0">
+          <mxGeometry x="380" y="360" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="main-edge-4" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="main-0" source="main-io-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="420" as="sourcePoint" />
+            <mxPoint x="460" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="main-io-3" value="แสดงผล &quot;Enter num2 :&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="main-0">
+          <mxGeometry x="380" y="460" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="main-edge-5" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="main-0" source="main-io-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="520" as="sourcePoint" />
+            <mxPoint x="460" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="main-io-4" value="รับค่า num2" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="main-0">
+          <mxGeometry x="380" y="560" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="main-edge-6" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="main-0" source="main-io-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="620" as="sourcePoint" />
+            <mxPoint x="460" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H30DcwyFFr_nYNTAF1Y1-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="main-0" source="main-proc-2" target="H30DcwyFFr_nYNTAF1Y1-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="main-proc-2" value="ตั้งค่าตัวชี้ ptr1 = &amp;num1&lt;br&gt;ptr2 = &amp;num2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="main-0">
+          <mxGeometry x="380" y="660" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H30DcwyFFr_nYNTAF1Y1-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="main-0" source="main-io-5" target="H30DcwyFFr_nYNTAF1Y1-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="690" y="775" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="main-io-5" value="แสดงผล: ค่า num1, num2 ก่อนสลับ" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="main-0">
+          <mxGeometry x="610" y="660" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H30DcwyFFr_nYNTAF1Y1-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="main-0" source="main-io-6" target="main-stop">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="main-io-6" value="แสดงผล: ค่า num1, num2 หลังสลับ" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="main-0">
+          <mxGeometry x="380" y="930" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="main-stop" value="สิ้นสุด" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="main-0">
+          <mxGeometry x="400" y="1030" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="H30DcwyFFr_nYNTAF1Y1-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="main-0" source="H30DcwyFFr_nYNTAF1Y1-1" target="H30DcwyFFr_nYNTAF1Y1-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H30DcwyFFr_nYNTAF1Y1-1" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="main-0">
+          <mxGeometry x="445" y="760" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="H30DcwyFFr_nYNTAF1Y1-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="main-0" source="H30DcwyFFr_nYNTAF1Y1-6" target="main-io-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H30DcwyFFr_nYNTAF1Y1-6" value="&lt;span&gt;เรียกใช้ฟังก์ชัน swapNumbers(ptr1, ptr2)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="main-0">
+          <mxGeometry x="340" y="820" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="func-0" value="ฟังก์ชัน: swapNumbers(int *a, int *b)" style="swimlane;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="50" width="920" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="func-start" value="เริ่มต้นฟังก์ชัน (รับค่าตัวชี้ a, b)" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="func-0">
+          <mxGeometry x="380" y="40" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="func-edge-1" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="func-0" source="func-start">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="120" as="sourcePoint" />
+            <mxPoint x="460" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="func-proc-1" value="ตั้งค่า *a = *a + *b" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="func-0">
+          <mxGeometry x="380" y="160" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="func-edge-2" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="func-0" source="func-proc-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="220" as="sourcePoint" />
+            <mxPoint x="460" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="func-proc-2" value="ตั้งค่า *b = *a - *b" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="func-0">
+          <mxGeometry x="380" y="260" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="func-edge-3" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="func-0" source="func-proc-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="320" as="sourcePoint" />
+            <mxPoint x="460" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="func-proc-3" value="ตั้งค่า *a = *a - *b" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="func-0">
+          <mxGeometry x="380" y="360" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="func-edge-4" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="func-0" source="func-proc-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="420" as="sourcePoint" />
+            <mxPoint x="460" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="func-stop" value="จบฟังก์ชัน" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="func-0">
+          <mxGeometry x="400" y="460" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

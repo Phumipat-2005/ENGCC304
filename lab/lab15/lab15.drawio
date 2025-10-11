@@ -1,0 +1,184 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0" version="28.2.5">
+  <diagram name="Page-1" id="cJinfKh3n7Fr8UnOrwiJ">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="main-0" value="โปรแกรมหลัก: main()" style="swimlane;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="920" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="main-start" value="เริ่มต้น" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="main-0">
+          <mxGeometry x="400" y="40" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="main-edge-1" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="main-0" source="main-start">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="120" as="sourcePoint" />
+            <mxPoint x="460" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="main-proc-1" value="กำหนด filename = &quot;68.txt&quot;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="main-0">
+          <mxGeometry x="380" y="160" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="main-edge-2" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="main-0" source="main-proc-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="220" as="sourcePoint" />
+            <mxPoint x="460" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="main-func-1" value="เรียกใช้ฟังก์ชัน countWords(filename) &lt;br&gt;และเก็บผลลัพธ์ใน wordCount" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="main-0">
+          <mxGeometry x="360" y="260" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="main-edge-3" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="main-0" source="main-func-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="320" as="sourcePoint" />
+            <mxPoint x="460" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="main-io-1" value="แสดงผล: &quot;จำนวนคำในไฟล์ [filename] คือ [wordCount]&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="main-0">
+          <mxGeometry x="320" y="360" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="main-edge-4" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="main-0" source="main-io-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="420" as="sourcePoint" />
+            <mxPoint x="460" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="main-stop" value="สิ้นสุด" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="main-0">
+          <mxGeometry x="400" y="460" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="func-0" value="ฟังก์ชัน: countWords(filename)" style="swimlane;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="40" y="640" width="920" height="880" as="geometry" />
+        </mxCell>
+        <mxCell id="func-start" value="เริ่มต้นฟังก์ชัน (รับค่า filename)" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="func-0">
+          <mxGeometry x="400" y="40" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="func-edge-1" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="func-0" source="func-start">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="120" as="sourcePoint" />
+            <mxPoint x="480" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="func-proc-1" value="พยายามเปิดไฟล์ (file) ตามชื่อ filename" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="func-0">
+          <mxGeometry x="380" y="160" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="func-edge-2" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="func-0" source="func-proc-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="220" as="sourcePoint" />
+            <mxPoint x="480" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="func-cond-1" value="เปิดไฟล์ไม่สำเร็จ &lt;br&gt;(!file) ?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="func-0">
+          <mxGeometry x="410" y="260" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="func-edge-3" value="จริง" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="func-cond-1">
+          <mxGeometry x="-0.5" relative="1" as="geometry">
+            <mxPoint x="99" y="90" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="func-edge-5" value="เท็จ" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="func-cond-1">
+          <mxGeometry x="0.5" relative="1" as="geometry">
+            <mxPoint x="70" y="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Xv340dgJjyx-NuAuB7Oc-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="func-0" source="func-proc-2" target="Xv340dgJjyx-NuAuB7Oc-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="func-proc-2" value="ส่งค่าคืน 0" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="func-0">
+          <mxGeometry x="380" y="380" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="func-edge-4" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="func-0" source="func-cond-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="340" as="sourcePoint" />
+            <mxPoint x="480" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Xv340dgJjyx-NuAuB7Oc-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="func-0" source="func-proc-3" target="Xv340dgJjyx-NuAuB7Oc-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="func-proc-3" value="ตั้งค่า count = 0" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="func-0">
+          <mxGeometry x="680" y="270" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="func-edge-6" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="func-0" source="func-cond-1" target="func-proc-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="300" as="sourcePoint" />
+            <mxPoint x="640" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Xv340dgJjyx-NuAuB7Oc-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="func-0" source="func-cond-2" target="Xv340dgJjyx-NuAuB7Oc-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="690" y="495" />
+              <mxPoint x="690" y="495" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="func-cond-2" value="อ่านคำต่อไปจากไฟล์ได้สำเร็จ &lt;br&gt;(file &gt;&gt; word) ?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="func-0">
+          <mxGeometry x="690" y="455" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="func-edge-8" value="จริง" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="func-cond-2">
+          <mxGeometry x="0.5" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="func-edge-11" value="เท็จ" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="func-cond-2">
+          <mxGeometry x="-0.5" relative="1" as="geometry">
+            <mxPoint x="49" y="26" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="func-proc-4" value="เพิ่มค่า count ขึ้น 1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="func-0">
+          <mxGeometry x="680" y="610" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="func-edge-9" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="func-0" source="func-cond-2" target="func-proc-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="720" y="450" as="sourcePoint" />
+            <mxPoint x="720" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="func-edge-10" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="func-0" source="func-proc-4" target="Xv340dgJjyx-NuAuB7Oc-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="720" y="530" as="sourcePoint" />
+            <mxPoint x="720" y="370" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="880" y="640" />
+              <mxPoint x="880" y="530" />
+              <mxPoint x="880" y="395" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="func-proc-5" value="ปิดไฟล์ (file.close())" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="func-0">
+          <mxGeometry x="400" y="550" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="func-edge-13" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="func-0" source="func-proc-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="610" as="sourcePoint" />
+            <mxPoint x="480" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="func-proc-6" value="ส่งค่าคืน count" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="func-0">
+          <mxGeometry x="400" y="650" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="func-edge-14" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="func-0" source="func-proc-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="710" as="sourcePoint" />
+            <mxPoint x="480" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="func-stop" value="จบฟังก์ชัน" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="func-0">
+          <mxGeometry x="420" y="750" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Xv340dgJjyx-NuAuB7Oc-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="func-0" source="Xv340dgJjyx-NuAuB7Oc-2" target="func-proc-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Xv340dgJjyx-NuAuB7Oc-2" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="func-0">
+          <mxGeometry x="465" y="480" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Xv340dgJjyx-NuAuB7Oc-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="func-0" source="Xv340dgJjyx-NuAuB7Oc-6" target="func-cond-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Xv340dgJjyx-NuAuB7Oc-6" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="func-0">
+          <mxGeometry x="745" y="380" width="30" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
